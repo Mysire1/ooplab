@@ -1,28 +1,22 @@
 //
-// Created by donni on 29.02.2024.
+// Created by donni on 09.04.2024.
 //
 
-#ifndef OOP_LAB2_MARKS_H
-#define OOP_LAB2_MARKS_H
+#ifndef OOP3_MARKS_H
+#define OOP3_MARKS_H
 #include "iostream"
-#include "string"
 using namespace std;
 
 class Marks {
-private:
+public:
     int* MarksArray;
     int size;
 
-public:
     Marks(int Mass[], int s) : size(s) {
         MarksArray = new int[size];
         for (int i = 0; i < size; ++i) {
             MarksArray[i] = Mass[i];
         }
-    }
-
-    ~Marks() {
-        delete[] MarksArray;
     }
 
     void print() {
@@ -35,4 +29,4 @@ public:
 };
 
 
-#endif //OOP_LAB2_MARKS_H
+#endif //OOP3_MARKS_H
