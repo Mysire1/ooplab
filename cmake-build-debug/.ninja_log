@@ -1,0 +1,27 @@
+# ninja log v5
+3	476	7309088465362460	CMakeFiles/oop_lab2.dir/main.cpp.obj	e6d38bb416509e92
+476	710	7309088467685146	oop_lab2.exe	e5bf70270c0a302a
+10	421	7309088464823685	CMakeFiles/oop_lab2.dir/student.cpp.obj	6c0c6c0fb20d5cb
+8	432	7309089918298683	CMakeFiles/oop_lab2.dir/marks.cpp.obj	8dc3353ca57ec69a
+13	434	7309089918308688	CMakeFiles/oop_lab2.dir/VLK.cpp.obj	f7eec7dbc4ea700e
+3	475	7309089918730313	CMakeFiles/oop_lab2.dir/main.cpp.obj	e6d38bb416509e92
+475	561	7309089919545548	oop_lab2.exe	285131ae9f02764
+9	440	7309097079048843	CMakeFiles/oop_lab2.dir/marks.cpp.obj	8dc3353ca57ec69a
+3	569	7309097080336683	CMakeFiles/oop_lab2.dir/main.cpp.obj	e6d38bb416509e92
+569	679	7309097081397473	oop_lab2.exe	285131ae9f02764
+9	485	7309097635531332	CMakeFiles/oop_lab2.dir/marks.cpp.obj	8dc3353ca57ec69a
+3	539	7309097636058579	CMakeFiles/oop_lab2.dir/main.cpp.obj	e6d38bb416509e92
+539	627	7309097636906320	oop_lab2.exe	285131ae9f02764
+13	449	7309098109033486	CMakeFiles/oop_lab2.dir/student.cpp.obj	6c0c6c0fb20d5cb
+8	458	7309098109122547	CMakeFiles/oop_lab2.dir/marks.cpp.obj	8dc3353ca57ec69a
+3	514	7309098109684348	CMakeFiles/oop_lab2.dir/main.cpp.obj	e6d38bb416509e92
+514	600	7309098110516034	oop_lab2.exe	285131ae9f02764
+8	560	7309098246370700	CMakeFiles/oop_lab2.dir/student.cpp.obj	6c0c6c0fb20d5cb
+3	607	7309098246832928	CMakeFiles/oop_lab2.dir/main.cpp.obj	e6d38bb416509e92
+607	705	7309098247776355	oop_lab2.exe	285131ae9f02764
+9	408	7309100776309967	CMakeFiles/oop_lab2.dir/student.cpp.obj	6c0c6c0fb20d5cb
+3	461	7309100776840871	CMakeFiles/oop_lab2.dir/main.cpp.obj	e6d38bb416509e92
+461	547	7309100777668770	oop_lab2.exe	285131ae9f02764
+29	506	7318816485155688	CMakeFiles/oop_lab2.dir/VLK.cpp.obj	f7eec7dbc4ea700e
+3	533	7318816485485683	CMakeFiles/oop_lab2.dir/main.cpp.obj	e6d38bb416509e92
+534	729	7318816487274376	oop_lab2.exe	285131ae9f02764
