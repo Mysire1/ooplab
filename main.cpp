@@ -2,7 +2,7 @@
 #include <string>
 #include "student.h"
 #include "marks.h"
-#include "VLK.h.h"
+#include "VLK.h"
 using namespace std;
 
 int main() {

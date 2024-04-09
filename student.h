@@ -10,6 +10,7 @@ using namespace std;
 
 class Student {
 private:
+    int static count;
     string name;
     int age;
     int RoomNumber;
@@ -17,16 +18,10 @@ private:
 
 public:
     Student(string stname, int stage, int roomN, int telnumber) : name(stname), age(stage), RoomNumber(roomN), number(telnumber) {
+        count++;
     }
 
-    void print() {
-        cout << "------------------------------" << endl;
-        cout << "Student name = " << name << endl;
-        cout << "Student age = " << age << endl;
-        cout << "Student number = " << number << endl;
-        cout << "Student room = " << RoomNumber << endl;
-        cout << "------------------------------" << endl;
-    }
+    void print() ;
 };
 
 

@@ -19,6 +19,17 @@ public:
         }
     }
 
+    Marks(Marks&& other) noexcept {
+        this->MarksArray = other.MarksArray;
+        this->size = other.size;
+        other.MarksArray = nullptr;
+        other.size = 0;
+    }
+
+    ~Marks() {
+        delete[] MarksArray;
+    }
+
     void print() {
         cout << endl << "Student Marks = ";
         for (int i = 0; i < size; ++i) {
