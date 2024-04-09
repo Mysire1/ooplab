@@ -10,4 +10,6 @@ add_executable(oop_lab2 main.cpp
         marks.h
         VLK.cpp
         VLK.h
+        proh.cpp
+        proh.h
 )

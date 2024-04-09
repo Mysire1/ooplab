@@ -3,6 +3,7 @@
 #include "student.h"
 #include "marks.h"
 #include "VLK.h"
+#include "proh.h"
 using namespace std;
 
 int main() {
