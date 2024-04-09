@@ -9,13 +9,14 @@ using namespace std;
 int main() {
     Student id("Kostya Smozhevskykh", 18, 399, 660878630, "Software Engineer", 1);
     id.print();
+    Step step1;
+    Step step2;
 
     int MarksArray[] = {5, 3, 3};
     int size = 3;
     Marks mark(MarksArray, size);
     mark.print();
 
-    Step step1;
     step1.updateScholarship(mark);
     step1.print();
     Step::TypeStep typeStep1;
@@ -28,8 +29,7 @@ int main() {
         cout << "The student did not pass." << endl;
     }
 
-    Student id2("Andriy Kravchuk", 17, 255, 660888760, "Computer Science", 1);
-    id2 = id;
+    Student id2 = id;
     id2.print();
 
     int MarksArray2[] = {5, 2, 5, 5};
@@ -37,7 +37,6 @@ int main() {
     Marks mark2(MarksArray2, size2);
     mark2.print();
 
-    Step step2;
     step2.updateScholarship(mark2);
     step2.print();
     Step::TypeStep typeStep2;
@@ -49,6 +48,11 @@ int main() {
     } else {
         cout << "The student did not pass." << endl;
     }
+
+    Student id3("Olekssii Petyhachnyi", 17, 322, 637855632, "Software Engineer", 1);
+    id3.print();
+    id2 = move(id3);
+    id2.print();
 
     int x;
     cout << "Write your VLK status(0/1) ";

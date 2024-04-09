@@ -35,6 +35,15 @@ public:
         return *this;
     }
 
+    Student(const Student& other) : name(other.name), age(other.age), RoomNumber(other.RoomNumber),number(other.number), facultyName(other.facultyName),facultyGrade(other.facultyGrade) {
+        cout << "COPY CONSTRUCTOR" << endl;
+    }
+
+    Student(Student&& other) noexcept: name(std::move(other.name)), age(other.age), RoomNumber(other.RoomNumber),number(other.number), facultyName(std::move(other.facultyName)),facultyGrade(other.facultyGrade) {
+        cout << "MOVE CONSTRUCTOR" << endl;
+    }
+
+
     void print();
 };
 
