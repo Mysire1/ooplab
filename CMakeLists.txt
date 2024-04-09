@@ -12,4 +12,6 @@ add_executable(oop_lab2 main.cpp
         VLK.h
         proh.cpp
         proh.h
+        Step.cpp
+        Step.h
 )
