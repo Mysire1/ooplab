@@ -1,28 +1,42 @@
 //
-// Created by donni on 09.04.2024.
+// Created by donni on 08.04.2024.
 //
 
-#ifndef OOP3_STUDENT_H
-#define OOP3_STUDENT_H
-#include "iostream"
-#include "string"
+#ifndef OOP4_STUDENT_H
+#define OOP4_STUDENT_H
+#include <iostream>
+#include <string>
 using namespace std;
 
 class Student {
 private:
-    int static count;
+    static int count;
     string name;
     int age;
     int RoomNumber;
     int number;
+    string facultyName;
+    int facultyGrade;
 
 public:
-    Student(string stname, int stage, int roomN, int telnumber) : name(stname), age(stage), RoomNumber(roomN), number(telnumber) {
+    Student(string stname, int stage, int roomN, int telnumber, string facName, int facGrade)
+            : name(stname), age(stage), RoomNumber(roomN), number(telnumber), facultyName(facName), facultyGrade(facGrade) {
         count++;
     }
+    Student& operator=(const Student& other) {
+        if (this != &other) {
+            this->name = other.name;
+            this->age = other.age;
+            this->RoomNumber = other.RoomNumber;
+            this->number = other.number;
+            this->facultyName = other.facultyName;
+            this->facultyGrade = other.facultyGrade;
+        }
+        return *this;
+    }
 
-    void print() ;
+    void print();
 };
 
 
-#endif //OOP3_STUDENT_H
+#endif //OOP4_STUDENT_H

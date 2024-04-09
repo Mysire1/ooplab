@@ -1,15 +1,13 @@
 #include <iostream>
-#include <string>
 #include "student.h"
 #include "marks.h"
-#include "VLK.h"
 #include "proh.h"
-#include "Step.h"
+#include "step.h"
+#include "vlk.h"
 using namespace std;
 
 int main() {
-    setlocale(LC_ALL, "uk_UA.UTF-8");
-    Student id("Kostya Smozhevskykh", 18, 399, 660878630);
+    Student id("Kostya Smozhevskykh", 18, 399, 660878630, "Software Engineer", 1);
     id.print();
 
     int MarksArray[] = {5, 3, 3};
@@ -30,10 +28,11 @@ int main() {
         cout << "The student did not pass." << endl;
     }
 
-    Student id2("Andriy Kravchuk", 17, 255, 660888760);
+    Student id2("Andriy Kravchuk", 17, 255, 660888760, "Computer Science", 1);
+    id2 = id;
     id2.print();
 
-    int MarksArray2[] = {5, 4, 2, 3};
+    int MarksArray2[] = {5, 2, 5, 5};
     int size2 = 4;
     Marks mark2(MarksArray2, size2);
     mark2.print();
