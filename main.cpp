@@ -6,11 +6,11 @@
 #include "vlk.h"
 using namespace std;
 
+
 int main() {
     Student id("Kostya Smozhevskykh", 18, 399, 660878630, "Software Engineer", 1);
     id.print();
     Step step1;
-    Step step2;
 
     int MarksArray[] = {5, 3, 3};
     int size = 3;
@@ -23,11 +23,7 @@ int main() {
     typeStep1.determineScholarship(mark);
 
     proh markProh1(MarksArray, size);
-    if (markProh1.pass()) {
-        cout << "The student passed." << endl;
-    } else {
-        cout << "The student did not pass." << endl;
-    }
+    markProh1.pass();
 
     Student id2 = id;
     id2.print();
@@ -37,17 +33,14 @@ int main() {
     Marks mark2(MarksArray2, size2);
     mark2.print();
 
+    Step step2;
     step2.updateScholarship(mark2);
     step2.print();
     Step::TypeStep typeStep2;
     typeStep2.determineScholarship(mark2);
 
     proh markProh2(MarksArray2, size2);
-    if (markProh2.pass()) {
-        cout << "The student passed." << endl;
-    } else {
-        cout << "The student did not pass." << endl;
-    }
+    markProh2.pass();
 
     Student id3("Olekssii Petyhachnyi", 17, 322, 637855632, "Software Engineer", 1);
     id3.print();
