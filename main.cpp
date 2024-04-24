@@ -7,10 +7,14 @@
 #include "AddStudent.h"
 using namespace std;
 
+void doprint(VLK &v1,int status){
+    v1.print(status);
+}
+
 int main() {
     int choice;
     do {
-        cout << "Choice option \n 1.Information \n 2.Add student \n 3.Add mark \n 4.Exit \n";
+        cout << "Choice option \n 1.Information \n 2.Add student \n 3.Add mark \n 4.Base Class Reference \n 5.Exit \n";
         cin >> choice;
 
         switch (choice) {
@@ -65,22 +69,21 @@ int main() {
                 b.StaticmethodbindingTEST();
 
                 Student *pb = new AddStudent;
-                pb->StaticmethodbindingTEST();
+                pb->StaticmethodbindingTEST() ;
 
                 break;
+            }
+            case 4: {
+                VLK v1(1);
+                doprint(v1,1);
+
             }
 
             default:
                 cout << "Invalid choice. Please choose again." << endl;
         }
 
-    } while(choice = 4);
-
-    int x;
-    cout << "Write your VLK status(0/1): ";
-    cin >> x;
-    VLK v1(x);
-    VLK v2(v1);
+    } while(choice = 5);
 
     return 0;
 }
