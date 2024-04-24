@@ -13,5 +13,5 @@ void Student::print () {
     cout << "Student age = " << age << endl;
     cout << "Student number = " << number << endl;
     cout << "Student room = " << RoomNumber << endl;
-    cout << "------------------------------" << endl;
+    cout << "------------------------------";
 }

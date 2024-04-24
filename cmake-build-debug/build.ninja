@@ -85,6 +85,12 @@ build CMakeFiles/oop_lab2.dir/Step.cpp.obj: CXX_COMPILER__oop_lab2_unscanned_Deb
   OBJECT_DIR = CMakeFiles\oop_lab2.dir
   OBJECT_FILE_DIR = CMakeFiles\oop_lab2.dir
 
+build CMakeFiles/oop_lab2.dir/AddStudent.cpp.obj: CXX_COMPILER__oop_lab2_unscanned_Debug C$:/Users/donni/CLionProjects/oop_lab2/AddStudent.cpp || cmake_object_order_depends_target_oop_lab2
+  DEP_FILE = CMakeFiles\oop_lab2.dir\AddStudent.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\oop_lab2.dir
+  OBJECT_FILE_DIR = CMakeFiles\oop_lab2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target oop_lab2
@@ -93,7 +99,7 @@ build CMakeFiles/oop_lab2.dir/Step.cpp.obj: CXX_COMPILER__oop_lab2_unscanned_Deb
 #############################################
 # Link the executable oop_lab2.exe
 
-build oop_lab2.exe: CXX_EXECUTABLE_LINKER__oop_lab2_Debug CMakeFiles/oop_lab2.dir/main.cpp.obj CMakeFiles/oop_lab2.dir/student.cpp.obj CMakeFiles/oop_lab2.dir/marks.cpp.obj CMakeFiles/oop_lab2.dir/VLK.cpp.obj CMakeFiles/oop_lab2.dir/proh.cpp.obj CMakeFiles/oop_lab2.dir/Step.cpp.obj
+build oop_lab2.exe: CXX_EXECUTABLE_LINKER__oop_lab2_Debug CMakeFiles/oop_lab2.dir/main.cpp.obj CMakeFiles/oop_lab2.dir/student.cpp.obj CMakeFiles/oop_lab2.dir/marks.cpp.obj CMakeFiles/oop_lab2.dir/VLK.cpp.obj CMakeFiles/oop_lab2.dir/proh.cpp.obj CMakeFiles/oop_lab2.dir/Step.cpp.obj CMakeFiles/oop_lab2.dir/AddStudent.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\oop_lab2.dir
