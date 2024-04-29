@@ -14,7 +14,7 @@ void doprint(VLK &v1,int status){
 int main() {
     int choice;
     do {
-        cout << "Choice option \n 1.Information \n 2.Add student \n 3.Add mark \n 4.Base Class Reference \n 5.Exit \n";
+        cout << "Choice option \n 1.Information \n 2.Add student \n 3.Add mark \n 4.Base Class Reference \n 5.Pure virtual function \n 6.Exit \n";
         cin >> choice;
 
         switch (choice) {
@@ -65,6 +65,8 @@ int main() {
             case 3: {
                 Student a("", 0, 0, 0, "", 0);
                 AddStudent b;
+
+
                 a.StaticmethodbindingTEST();
                 b.StaticmethodbindingTEST();
 
@@ -74,16 +76,28 @@ int main() {
                 break;
             }
             case 4: {
-                VLK v1(1);
+                VLK v1{0};
                 doprint(v1,1);
+
                 break;
+            }
+            case 5: {
+                StudyFee *payment = new Student("", 0, 0, 0, "", 0);
+                payment ->pay();
+
+                delete payment;
+                break;
+            }
+            case 6: {
+                Student *c = new Student("", 0, 0, 0, "", 0);
+                c->print();
             }
 
             default:
                 cout << "Invalid choice. Please choose again." << endl;
         }
 
-    } while(choice = 4);
+    } while(choice == 6);
 
     return 0;
 }

@@ -28,13 +28,14 @@ public:
         int paym;
         cout << "Did you pay for UNI? \n 1.Yes \n 2.No " << endl;
         cin >> paym;
-        if (paym == 1)
+        if (paym == 1) {
             cout << "You pay 36800 for year" << endl;
-            if (paym == 2)
-                cout << "You dont pay for UNI" << endl;
-            else {
-                cout << "Choose between 1 or 2" << endl;
-            }
+        }
+        if (paym == 2) {
+            cout << "You dont pay for UNI" << endl;
+        } else {
+            cout << "Choose between 1 or 2" << endl;
+        }
     }
 
     void StaticmethodbindingTEST () {
