@@ -76,14 +76,14 @@ int main() {
             case 4: {
                 VLK v1(1);
                 doprint(v1,1);
-
+                break;
             }
 
             default:
                 cout << "Invalid choice. Please choose again." << endl;
         }
 
-    } while(choice = 5);
+    } while(choice = 4);
 
     return 0;
 }

@@ -16,4 +16,6 @@ add_executable(oop_lab2 main.cpp
         Step.h
         AddStudent.cpp
         AddStudent.h
+        StudyFee.cpp
+        StudyFee.h
 )

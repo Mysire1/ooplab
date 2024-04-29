@@ -26,7 +26,7 @@ public:
         other.size = 0;
     }
 
-    ~Marks() {
+    virtual ~Marks() {
         delete[] MarksArray;
     }
 
