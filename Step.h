@@ -6,13 +6,21 @@
 #define OOP4_STEP_H
 #include "iostream"
 #include "marks.h"
+#include "Interface.h"
 using namespace std;
 
-class Step {
+class Step : public Interface{
 private:
     int step;
 public:
     Step() : step(1000) {
+    }
+
+    virtual void printinter(const Interface &obj) const override {
+        cout << "From class Step" << endl;
+    }
+    void printTwo(Step &obj) {
+        cout <<"TEST" <<endl;
     }
 
     Step operator+(const Step& step1) const {

@@ -10,6 +10,7 @@ using namespace std;
 class StudyFee {
 public:
     virtual int pay() const = 0;
+    virtual ~StudyFee() {};
 };
 
 
