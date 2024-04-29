@@ -85,7 +85,6 @@ int main() {
                 StudyFee *payment = new Student("", 0, 0, 0, "", 0);
                 payment->pay();
 
-                delete payment;
                 break;
             }
             case 6: {
