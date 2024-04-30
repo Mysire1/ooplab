@@ -25,8 +25,8 @@ public:
         cin >> facultyGrade;
     }
 
-    void StaticmethodbindingTEST () {
-        cout << "SUB CLASS" <<endl;
+    void StaticmethodbindingTEST (int a,int b) {
+        cout << "SUB CLASS" << a+b << endl;
     }
 };
 

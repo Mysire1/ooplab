@@ -63,15 +63,15 @@ int main() {
                 break;
             }
             case 3: {
-                Student a("", 0, 0, 0, "", 0);
-                AddStudent b;
+                Student one("", 0, 0, 0, "", 0);
+                AddStudent two;
 
-
-                a.StaticmethodbindingTEST();
-                b.StaticmethodbindingTEST();
+                int a = 1, b = 1;
+                one.StaticmethodbindingTEST(a);
+                two.StaticmethodbindingTEST(a,b);
 
                 Student *pb = new AddStudent;
-                pb->StaticmethodbindingTEST() ;
+                pb->StaticmethodbindingTEST(a) ;
 
                 break;
             }

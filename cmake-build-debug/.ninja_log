@@ -11,3 +11,15 @@
 1	346	7361206088928823	build.ninja	e4312129078c9642
 43	632	7356989118818346	CMakeFiles/oop_lab2.dir/VLKreference.cpp.obj	392b2ed79eee0293
 81	753	7361177854335284	CMakeFiles/oop_lab2.dir/StudyFee.cpp.obj	7e0725c716416512
+318	612	7361657173418471	CMakeFiles/oop_lab2.dir/Interface.cpp.obj	fc742a07515e96a7
+247	1241	7361657179162395	CMakeFiles/oop_lab2.dir/AddStudent.cpp.obj	8c024661e95cdd1b
+287	1289	7361657179762406	CMakeFiles/oop_lab2.dir/StudyFee.cpp.obj	7e0725c716416512
+110	1335	7361657179942372	CMakeFiles/oop_lab2.dir/Step.cpp.obj	fcb3a54c8ed75ec2
+132	1350	7361657180232394	CMakeFiles/oop_lab2.dir/VLK.cpp.obj	f7eec7dbc4ea700e
+89	1373	7361657180652388	CMakeFiles/oop_lab2.dir/student.cpp.obj	6c0c6c0fb20d5cb
+9	1444	7361657181637669	CMakeFiles/oop_lab2.dir/main.cpp.obj	e6d38bb416509e92
+1445	1919	7361657186249554	oop_lab2.exe	fce3df6b0d8f2b61
+91	1081	7361668632849762	CMakeFiles/oop_lab2.dir/AddStudent.cpp.obj	8c024661e95cdd1b
+69	1120	7361668633378681	CMakeFiles/oop_lab2.dir/student.cpp.obj	6c0c6c0fb20d5cb
+5	1170	7361668633978714	CMakeFiles/oop_lab2.dir/main.cpp.obj	e6d38bb416509e92
+1171	1588	7361668637814290	oop_lab2.exe	fce3df6b0d8f2b61

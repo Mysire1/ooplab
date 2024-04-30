@@ -38,8 +38,8 @@ public:
         }
     }
 
-    void StaticmethodbindingTEST () {
-        cout << "BASE CLASS" <<endl;
+    void StaticmethodbindingTEST (int a) {
+        cout << "BASE CLASS" << a << endl;
     }
 
     virtual void addStudent() {
