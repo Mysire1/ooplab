@@ -9,18 +9,11 @@
 #include "Interface.h"
 using namespace std;
 
-class Step : public Interface{
+class Step {
 private:
     int step;
 public:
     Step() : step(1000) {
-    }
-
-    virtual void printinter(const Interface &obj) const override {
-        cout << "From class Step" << endl;
-    }
-    void printTwo(Step &obj) {
-        cout <<"TEST" <<endl;
     }
 
     Step operator+(const Step& step1) const {

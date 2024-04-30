@@ -20,4 +20,6 @@ add_executable(oop_lab2 main.cpp
         StudyFee.h
         Interface.cpp
         Interface.h
+        AddMark.cpp
+        AddMark.h
 )

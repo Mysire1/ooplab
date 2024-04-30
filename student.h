@@ -38,10 +38,6 @@ public:
         }
     }
 
-    void StaticmethodbindingTEST (int a) {
-        cout << "BASE CLASS" << a << endl;
-    }
-
     virtual void addStudent() {
         cout << "Write new data about student! " << endl;
         cout << "Name: " ;

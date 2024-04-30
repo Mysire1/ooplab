@@ -7,99 +7,131 @@
 #include "AddStudent.h"
 using namespace std;
 
-void doprint(VLK &v1,int status){
-    v1.print(status);
-}
-
 int main() {
-    int choice;
-    do {
-        cout << "Choice option \n 1.Information \n 2.Add student \n 3.Add mark \n 4.Base Class Reference \n 5.Pure virtual function \n 6.Base Class Pointer \n 7.Interface \n 8.Exit \n";
-        cin >> choice;
+    int choice, choice1;
+    cout << "Who are you? \n 1.Teacher \n 2.Student" << endl;
+    cin >> choice1;
+    if (choice1 == 1) {
+        int attemps = 3;
+        do {
+            int inputpass, teacherpass = 123;
+            cout << "Type teacher password: ";
+            cin >> inputpass;
+            if (inputpass == teacherpass) {
+                do {
+                    cout << "Choice option \n 1.Information \n 2.Add student \n 3.Add mark \n 4.Exit \n";
+                    cin >> choice;
 
-        switch (choice) {
-            case 1: {
-                Student id("Kostya Smozhevskykh", 18, 399, 660878630, "Software Engineer", 1);
-                id.print();
-                Step step1;
+                    switch (choice) {
+                        case 1: {
+                            Student id("Kostya Smozhevskykh", 18, 399, 660878630, "Software Engineer", 1);
+                            id.print();
+                            Step step1;
 
-                int MarksArray[] = {5, 3, 3};
-                int size = 3;
-                Marks mark(MarksArray, size);
-                mark.print();
+                            int MarksArray[] = {5, 3, 3};
+                            int size = 3;
+                            Marks mark(MarksArray, size);
+                            mark.print();
 
-                step1.updateScholarship(mark);
-                step1.print();
-                Step::TypeStep typeStep1;
-                typeStep1.determineScholarship(mark);
+                            step1.updateScholarship(mark);
+                            step1.print();
+                            Step::TypeStep typeStep1;
+                            typeStep1.determineScholarship(mark);
 
-                proh markProh1(MarksArray, size);
-                markProh1.pass();
+                            proh markProh1(MarksArray, size);
+                            markProh1.pass();
 
-                Student id2("Andriy Kravchuk", 17, 255, 660888760,"Computer Science", 1);
-                id2.print();
+                            Student id2("Andriy Kravchuk", 17, 255, 660888760, "Computer Science", 1);
+                            id2.print();
 
-                int MarksArray2[] = {5, 2, 5, 5};
-                int size2 = 4;
-                Marks mark2(MarksArray2, size2);
-                mark2.print();
+                            int MarksArray2[] = {5, 2, 5, 5};
+                            int size2 = 4;
+                            Marks mark2(MarksArray2, size2);
+                            mark2.print();
 
-                Step step2;
-                step2.updateScholarship(mark2);
-                step2.print();
-                Step::TypeStep typeStep2;
-                typeStep2.determineScholarship(mark2);
+                            Step step2;
+                            step2.updateScholarship(mark2);
+                            step2.print();
+                            Step::TypeStep typeStep2;
+                            typeStep2.determineScholarship(mark2);
 
-                proh markProh2(MarksArray2, size2);
-                markProh2.pass();
+                            proh markProh2(MarksArray2, size2);
+                            markProh2.pass();
 
-                break;
+                            break;
+                        }
+                        case 2: {
+                            AddStudent newStudent;
+                            newStudent.addStudent();
+                            newStudent.print();
+
+                            break;
+                        }
+                        case 3: {
+                            break;
+                        }
+                        case 4: {
+                            attemps = 0;
+                            cout << "Bye!";
+                            break;
+                        }
+
+                        default:
+                            cout << "Invalid choice. Please choose again." << endl;
+                    }
+                } while (choice != 4);
+            } else {
+                attemps--;
+                cout << "You have only " << attemps << " .Try again!" << endl;
             }
-            case 2: {
-                AddStudent newStudent;
-                newStudent.addStudent();
-                newStudent.print();
+        } while (attemps > 0);
+    }
+    if (choice1 == 2) {
+        do {
+            cout << "Choose option \n 1.Information \n 2.Exit" << endl;
+            cin >> choice;
+            switch (choice) {
+                case 1: {
+                    Student id("Kostya Smozhevskykh", 18, 399, 660878630, "Software Engineer", 1);
+                    id.print();
+                    Step step1;
 
-                break;
+                    int MarksArray[] = {5, 3, 3};
+                    int size = 3;
+                    Marks mark(MarksArray, size);
+                    mark.print();
+
+                    step1.updateScholarship(mark);
+                    step1.print();
+                    Step::TypeStep typeStep1;
+                    typeStep1.determineScholarship(mark);
+
+                    proh markProh1(MarksArray, size);
+                    markProh1.pass();
+
+                    Student id2("Andriy Kravchuk", 17, 255, 660888760, "Computer Science", 1);
+                    id2.print();
+
+                    int MarksArray2[] = {5, 2, 5, 5};
+                    int size2 = 4;
+                    Marks mark2(MarksArray2, size2);
+                    mark2.print();
+
+                    Step step2;
+                    step2.updateScholarship(mark2);
+                    step2.print();
+                    Step::TypeStep typeStep2;
+                    typeStep2.determineScholarship(mark2);
+
+                    proh markProh2(MarksArray2, size2);
+                    markProh2.pass();
+
+                    break;
+                }
+                default:
+                    cout << "Infalid choice. Please choose again." << endl;
             }
-            case 3: {
-                Student one("", 0, 0, 0, "", 0);
-                AddStudent two;
-
-                int a = 1, b = 1;
-                one.StaticmethodbindingTEST(a);
-                two.StaticmethodbindingTEST(a,b);
-
-                Student *pb = new AddStudent;
-                pb->StaticmethodbindingTEST(a) ;
-
-                break;
-            }
-            case 4: {
-                VLK v1{0};
-                doprint(v1,1);
-
-                break;
-            }
-            case 5: {
-                StudyFee *payment = new Student("", 0, 0, 0, "", 0);
-                payment->pay();
-
-                break;
-            }
-            case 6: {
-                Student *c = new Student("", 0, 0, 0, "", 0);
-                c->print();
-            }
-            case 7: {
-
-            }
-
-            default:
-                cout << "Invalid choice. Please choose again." << endl;
-        }
-
-    } while(choice != 8);
-
+        } while (choice != 2);
+    }
     return 0;
 }

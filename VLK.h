@@ -8,16 +8,10 @@
 #include "Interface.h"
 using namespace std;
 
-class VLK : public Interface{
+class VLK {
 protected:
     int medkom{};
 public:
-    virtual void printinter(const Interface &obj) const override {
-        cout << "From class VLK" << endl;
-    }
-    void printOne(VLK &obj) {
-        cout << "TEST?";
-    }
 
     VLK(int value) : medkom{value}{
     }
