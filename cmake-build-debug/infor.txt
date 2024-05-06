@@ -1,0 +1,46 @@
+Name: AD
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: A
+Faculty Grade: 1
+Name: AD
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: A
+Faculty Grade: 1
+Name: ?
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: 1
+Faculty Grade: 1
+Name: A
+Age: 1
+Room: 12
+Telephone number: 123456789
+Faculty Name: CS
+Faculty Grade: 1
+Name: AD
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: A
+Faculty Grade: 1
+====================================
+Name: AH
+Age: 20
+Room: 123
+Telephone number: 9999999
+Faculty Name: CS
+Faculty Grade: 4
+====================================
+Write new data about student! 
+Name: AD
+Age: 1
+Room: 1
+Telephone number (9 num): 1
+Name of your faculty: A
+Your faculty grade: 1
+====================================

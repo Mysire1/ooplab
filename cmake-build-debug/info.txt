@@ -796,3 +796,15 @@ Room: 1
 Telephone number: 0
 Faculty Name: ?
 Faculty Grade: 6
+Name: AD
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: A
+Faculty Grade: 1
+Name: a
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: a
+Faculty Grade: 1
