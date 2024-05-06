@@ -5,6 +5,8 @@
 #include "step.h"
 #include "vlk.h"
 #include "AddStudent.h"
+#include "memory"
+#include <fstream>
 using namespace std;
 
 int main() {
@@ -24,6 +26,9 @@ int main() {
 
                     switch (choice) {
                         case 1: {
+                            ofstream out;
+                            out.open("info.txt");
+
                             Student id("Kostya Smozhevskykh", 18, 399, 660878630, "Software Engineer", 1);
                             id.print();
                             Step step1;
@@ -58,16 +63,36 @@ int main() {
                             proh markProh2(MarksArray2, size2);
                             markProh2.pass();
 
+                            out.close();
+                            cout << "File has been written" << endl;
                             break;
                         }
                         case 2: {
+                            ofstream out;
+                            out.open("info.txt");
                             AddStudent newStudent;
+                            //newStudent.pay();
                             newStudent.addStudent();
                             newStudent.print();
 
+                            out.close();
                             break;
                         }
                         case 3: {
+                            ofstream out;
+                            out.open("info.txt");
+
+                            int MarksArray[] = {5, 3, 3};
+                            int size = 3;
+                            Marks mark(MarksArray, size);
+
+                            int markw;
+                            cout << "Write mark you want to add(0-5): ";
+                            cin >> markw;
+                            mark.addMark(markw);
+
+                            mark.print();
+                            out.close();
                             break;
                         }
                         case 4: {
@@ -75,7 +100,6 @@ int main() {
                             cout << "Bye!";
                             break;
                         }
-
                         default:
                             cout << "Invalid choice. Please choose again." << endl;
                     }
@@ -92,6 +116,9 @@ int main() {
             cin >> choice;
             switch (choice) {
                 case 1: {
+                    ofstream out;
+                    out.open("info.txt");
+
                     Student id("Kostya Smozhevskykh", 18, 399, 660878630, "Software Engineer", 1);
                     id.print();
                     Step step1;
@@ -126,6 +153,7 @@ int main() {
                     proh markProh2(MarksArray2, size2);
                     markProh2.pass();
 
+                    out.close();
                     break;
                 }
                 default:
