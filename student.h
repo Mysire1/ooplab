@@ -7,6 +7,7 @@
 #include <iostream>
 #include <string>
 #include "StudyFee.h"
+#include "fstream"
 using namespace std;
 
 class Student : public StudyFee {
@@ -40,10 +41,24 @@ public:
 
     virtual void addStudent() {
         cout << "Write new data about student! " << endl;
-        cout << "Name: " ;
+        cout << "Name: ";
         cin >> name;
         cout << "Age: ";
         cin >> age;
+
+    }
+
+    void readStudentDataFromFile(const string& filename) {
+        ifstream inFile(filename); // Відкриття файлу для читання
+        if (inFile.is_open()) {
+            string line;
+            while (getline(inFile, line)) {
+                cout << line << endl;
+            }
+            inFile.close(); // Закриття файлу
+        } else {
+            cout << "Unable to open file for reading." << endl;
+        }
     }
 
     virtual void print();
