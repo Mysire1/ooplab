@@ -48,14 +48,14 @@ public:
 
     }
 
-    void readStudentDataFromFile(const string& filename) {
-        ifstream inFile(filename); // Відкриття файлу для читання
+    void readStudentDataFromFile(const string& path) {
+        ifstream inFile(path);
         if (inFile.is_open()) {
             string line;
             while (getline(inFile, line)) {
                 cout << line << endl;
             }
-            inFile.close(); // Закриття файлу
+            inFile.close();
         } else {
             cout << "Unable to open file for reading." << endl;
         }

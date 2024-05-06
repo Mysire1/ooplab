@@ -7,21 +7,23 @@
 #include "AddStudent.h"
 #include "memory"
 #include <fstream>
+#include "string"
 using namespace std;
 
 int main() {
     int choice, choice1;
     cout << "Who are you? \n 1.Teacher \n 2.Student" << endl;
     cin >> choice1;
-    ofstream out;
-    out.open("info.txt");
+    string path = R"(C:\Users\donni\CLionProjects\oop_lab2\info)";
     if (choice1 == 1) {
         int attemps = 3;
+        ofstream out;
         do {
             int inputpass, teacherpass = 123;
             cout << "Type teacher password: ";
             cin >> inputpass;
             if (inputpass == teacherpass) {
+                out.open(path, ofstream::app);
                 do {
                     cout << "Choice option \n 1.Information \n 2.Add student \n 3.Add mark \n 4.Exit \n";
                     cin >> choice;
@@ -62,14 +64,11 @@ int main() {
                             proh markProh2(MarksArray2, size2);
                             markProh2.pass();
 
-                            id.readStudentDataFromFile("info.txt");
-
                             cout << "File has been written" << endl;
                             break;
                         }
                         case 2: {
                             AddStudent newStudent;
-                            //newStudent.pay();
                             newStudent.addStudent();
                             newStudent.print();
 
@@ -101,6 +100,7 @@ int main() {
                             cout << "Invalid choice. Please choose again." << endl;
                     }
                 } while (choice != 4);
+                out.close();
             } else {
                 attemps--;
                 cout << "You have only " << attemps << " .Try again!" << endl;
@@ -154,7 +154,7 @@ int main() {
                     cout << "Infalid choice. Please choose again." << endl;
             }
         } while (choice != 2);
-        out.close();
+
     }
     return 0;
 }

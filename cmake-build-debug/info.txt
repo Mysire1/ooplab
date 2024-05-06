@@ -1,0 +1,798 @@
+Name: A
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: A
+Faculty Grade: 1
+Name: A
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: A
+Faculty Grade: 1
+Name: a
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: 1
+Faculty Grade: 1
+Name: A
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: A
+Faculty Grade: 1
+Name: 
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: 1
+Faculty Grade: 1
+====================================
+Name: A
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: 1
+Faculty Grade: 1
+====================================
+====================================
+Name: A
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: A
+Faculty Grade: 1
+====================================
+====================================
+Name: A
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: A
+Faculty Grade: 1
+====================================
+====================================
+Name: A
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: A
+Faculty Grade: 0
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: 
+Age: 0
+Room: 0
+Telephone number: 215
+Faculty Name: 
+Faculty Grade: -1807748672
+====================================
+====================================
+Name: A
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: A
+Faculty Grade: 1
+====================================
+====================================
+Name: A
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: AD
+Faculty Grade: 1
+====================================
+====================================
+Name: A
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: A
+Faculty Grade: 1
+====================================
+Name: A
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: A
+Faculty Grade: 1
+Name: a
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: a
+Faculty Grade: 1
+Name: a
+Age: 1
+Room: 1
+Telephone number: 1
+Faculty Name: a
+Faculty Grade: 1
+Name: ?
+Age: 1
+Room: 1
+Telephone number: 0
+Faculty Name: ?
+Faculty Grade: 6
