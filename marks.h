@@ -5,6 +5,7 @@
 #ifndef OOP3_MARKS_H
 #define OOP3_MARKS_H
 #include "iostream"
+#include <sstream>
 using namespace std;
 
 class Marks {
@@ -47,6 +48,16 @@ public:
         delete[] MarksArray;
         MarksArray = temp;
         size++;
+    }
+
+    string toString() const {
+        stringstream ss;
+        ss << "Marks: ";
+        for (int i = 0; i < size; ++i) {
+            ss << MarksArray[i] << " ";
+        }
+        ss << endl;
+        return ss.str();
     }
 };
 

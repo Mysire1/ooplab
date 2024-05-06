@@ -24,6 +24,7 @@ int main() {
             cin >> inputpass;
             if (inputpass == teacherpass) {
                 out.open(path, ofstream::app);
+                ifstream inFile(path);
                 if (out.is_open()) {
                     do {
                         cout << "Choice option \n 1.Information \n 2.Add student \n 3.Add mark \n 4.Exit \n";
@@ -48,7 +49,9 @@ int main() {
                                 proh markProh1(MarksArray, size);
                                 markProh1.pass();
 
-                                out << "File has been written" << endl;
+                                AddStudent newStudent;
+                                newStudent.readStudentData(inFile);
+                                cout << newStudent.toString() << endl;
 
                                 break;
                             }
@@ -85,7 +88,7 @@ int main() {
                                 proh markProh1(MarksArray, size);
                                 markProh1.pass();
 
-                                out << "Mark has been added" << endl; // Write to file
+                                out << "Mark has been added" << endl;
 
                                 break;
                             }

@@ -5,13 +5,15 @@
 #include <iostream>
 #include <fstream>
 #include "student.h"
+#include "marks.h"
 
 using namespace std;
 
 class AddStudent : public Student {
-
+private:
+    Marks studentMarks;
 public:
-    AddStudent() : Student("", 0, 0, 0, "", 0) {}
+    AddStudent() : Student("", 0, 0, 0, "", 0), studentMarks(nullptr, 0) {}
 
     string toString() const {
         string result;
@@ -21,7 +23,21 @@ public:
         result += "Telephone number: " + to_string(number) + "\n";
         result += "Faculty Name: " + facultyName + "\n";
         result += "Faculty Grade: " + to_string(facultyGrade) + "\n";
+
+        result += "Marks: ";
+        result += studentMarks.toString();
+
         return result;
+    }
+
+    void readStudentData(ifstream& inFile) {
+        getline(inFile, name);
+        inFile >> age;
+        inFile >> RoomNumber;
+        inFile >> number;
+        inFile.ignore();
+        getline(inFile, facultyName);
+        inFile >> facultyGrade;
     }
 
     void addStudent() {
@@ -40,5 +56,16 @@ public:
         getline(cin, facultyName);
         cout << "Your faculty grade: ";
         cin >> facultyGrade;
+
+        cout << "Enter number of marks: ";
+        int numMarks;
+        cin >> numMarks;
+
+        for (int i = 0; i < numMarks; ++i) {
+            int mark;
+            cout << "Enter mark " << (i + 1) << ": ";
+            cin >> mark;
+            studentMarks.addMark(mark);
+        }
     }
 };
