@@ -8,8 +8,7 @@ using namespace std;
 
 class Interface {
 public:
-    virtual void printinter(const Interface &obj) const =0;
-    virtual ~Interface(){};
+    virtual void pass() const = 0;
 };
 
 

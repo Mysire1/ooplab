@@ -6,14 +6,16 @@
 #include <fstream>
 #include "student.h"
 #include "marks.h"
+#include "proh.h"
 
 using namespace std;
 
 class AddStudent : public Student {
 private:
     Marks studentMarks;
+    proh studentProh;
 public:
-    AddStudent() : Student("", 0, 0, 0, "", 0), studentMarks(nullptr, 0) {}
+    AddStudent() : Student("", 0, 0, 0, "", 0), studentMarks(nullptr, 0), studentProh(nullptr, 0) {}
 
     string toString() const {
         string result;
@@ -66,6 +68,11 @@ public:
             cout << "Enter mark " << (i + 1) << ": ";
             cin >> mark;
             studentMarks.addMark(mark);
+        }
+        if (studentProh.pass()) {
+            cout << "You pass!" << endl;
+        } else {
+            cout << "You don't pass!" << endl;
         }
     }
 };

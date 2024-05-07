@@ -1,7 +1,9 @@
+
 Name: AH
-Age: 16
+Age: 18
 Room: 123
-Telephone number: 1657844
+Telephone number: 123456789
 Faculty Name: CS
 Faculty Grade: 1
-Marks: Marks: 3 1 2 
+Marks: Marks: 1 4 
+Marks: 
